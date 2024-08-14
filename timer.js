@@ -1,22 +1,33 @@
-// timer.js
-
 let startTime = null;
-let endTime = null;
+let accumulatedTime = 0;
 
 // Inicia el temporizador
 function startTimer() {
-    startTime = new Date();
-}
-
-// Detiene el temporizador y devuelve el tiempo transcurrido en segundos
-function stopTimer() {
-    endTime = new Date();
-    if (startTime) {
-        const elapsed = (endTime - startTime) / 1000; // Tiempo en segundos
-        startTime = null; // Reiniciar el temporizador
-        return elapsed;
+    if (startTime === null) {
+        startTime = new Date();
     }
-    return 0;
 }
 
-export { startTimer, stopTimer };
+// Detiene el temporizador y devuelve el tiempo transcurrido en milisegundos
+function stopTimer() {
+    if (startTime !== null) {
+        accumulatedTime += new Date() - startTime; // Acumular tiempo
+        startTime = null;
+    }
+}
+
+// Obtiene el tiempo total acumulado en milisegundos
+function getTotalTime() {
+    if (startTime !== null) {
+        return accumulatedTime + (new Date() - startTime);
+    }
+    return accumulatedTime;
+}
+
+// Reinicia el temporizador
+function resetTimer() {
+    startTime = null;
+    accumulatedTime = 0;
+}
+
+export { startTimer, stopTimer, getTotalTime, resetTimer };
