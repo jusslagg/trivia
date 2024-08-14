@@ -1,0 +1,377 @@
+[
+    {
+        "pregunta": "¿En qué año se fundó la Cruz Roja Argentina?",
+        "opciones": ["1880", "1890", "1900", "1910"],
+        "respuesta_correcta": "1880"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo principal de la Cruz Roja Argentina?",
+        "opciones": ["Brindar asistencia humanitaria", "Desarrollar proyectos inmobiliarios", "Proveer educación primaria", "Promover eventos deportivos"],
+        "respuesta_correcta": "Brindar asistencia humanitaria"
+    },
+    {
+        "pregunta": "¿Qué tipo de asistencia brindó la Cruz Roja Argentina durante las inundaciones en 2019?",
+        "opciones": ["Albergue temporal", "Asesoramiento legal", "Servicios de salud", "Apoyo psicológico"],
+        "respuesta_correcta": "Albergue temporal"
+    },
+    {
+        "pregunta": "¿Cuál es el lema de la Cruz Roja Argentina?",
+        "opciones": ["Imparcialidad, humanidad y neutralidad", "Unidos en la adversidad", "Ayuda en cualquier circunstancia", "Solidaridad en tiempos difíciles"],
+        "respuesta_correcta": "Imparcialidad, humanidad y neutralidad"
+    },
+    {
+        "pregunta": "¿Qué campaña lanzó la Cruz Roja Argentina en respuesta a la pandemia de COVID-19?",
+        "opciones": ["Campaña de prevención y educación", "Campaña de recolección de fondos para investigación", "Campaña de vacunación masiva", "Campaña de apoyo a los negocios locales"],
+        "respuesta_correcta": "Campaña de prevención y educación"
+    },
+    {
+        "pregunta": "¿Cómo se llama el programa de la Cruz Roja Argentina dedicado a la formación en primeros auxilios?",
+        "opciones": ["Formación en Primeros Auxilios", "Capacitación en Emergencias", "Curso de Rescate", "Programa de Asistencia Sanitaria"],
+        "respuesta_correcta": "Formación en Primeros Auxilios"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre de la revista oficial de la Cruz Roja Argentina?",
+        "opciones": ["Revista Cruz Roja", "Humanidad en Acción", "Voces de la Cruz Roja", "Cruz Roja Hoy"],
+        "respuesta_correcta": "Revista Cruz Roja"
+    },
+    {
+        "pregunta": "¿Qué tipo de desastres naturales ha abordado la Cruz Roja Argentina en los últimos años?",
+        "opciones": ["Inundaciones, terremotos y tormentas", "Epidemias y pandemias", "Conflictos bélicos y guerras", "Desastres tecnológicos"],
+        "respuesta_correcta": "Inundaciones, terremotos y tormentas"
+    },
+    {
+        "pregunta": "¿Qué programa de la Cruz Roja Argentina se enfoca en la protección de los migrantes?",
+        "opciones": ["Programa de Atención a Migrantes", "Protección y Asistencia Migratoria", "Servicio de Apoyo a Refugiados", "Red de Apoyo a Migrantes"],
+        "respuesta_correcta": "Programa de Atención a Migrantes"
+    },
+    {
+        "pregunta": "¿Qué tipo de servicios de salud ofrece la Cruz Roja Argentina en comunidades vulnerables?",
+        "opciones": ["Servicios médicos y odontológicos", "Formación en salud mental", "Apoyo en nutrición y dietética", "Servicios de rehabilitación física"],
+        "respuesta_correcta": "Servicios médicos y odontológicos"
+    },
+    {
+        "pregunta": "¿Qué evento internacional organiza la Cruz Roja Argentina cada año para recaudar fondos?",
+        "opciones": ["Gala Anual de Cruz Roja", "Maratón Internacional", "Festival de la Solidaridad", "Concierto Benéfico"],
+        "respuesta_correcta": "Gala Anual de Cruz Roja"
+    },
+    {
+        "pregunta": "¿Qué año se celebró el 140º aniversario de la Cruz Roja Argentina?",
+        "opciones": ["2020", "2021", "2022", "2019"],
+        "respuesta_correcta": "2020"
+    },
+    {
+        "pregunta": "¿Qué es el Programa de Voluntariado de la Cruz Roja Argentina?",
+        "opciones": ["Un programa para captar nuevos voluntarios", "Una iniciativa para entrenar y coordinar a los voluntarios", "Un proyecto para reclutar personal de emergencia", "Un servicio de apoyo financiero para los voluntarios"],
+        "respuesta_correcta": "Una iniciativa para entrenar y coordinar a los voluntarios"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo del programa 'Red de Apoyo Psicosocial' de la Cruz Roja Argentina?",
+        "opciones": ["Brindar asistencia emocional y psicológica", "Ofrecer terapia ocupacional", "Proveer atención médica urgente", "Organizar actividades recreativas"],
+        "respuesta_correcta": "Brindar asistencia emocional y psicológica"
+    },
+    {
+        "pregunta": "¿En qué provincias de Argentina tiene presencia la Cruz Roja Argentina?",
+        "opciones": ["En todas las provincias", "Solo en Buenos Aires y Córdoba", "Solo en el norte del país", "En el sur y centro del país"],
+        "respuesta_correcta": "En todas las provincias"
+    },
+    {
+        "pregunta": "¿Qué tipo de ayuda proporcionó la Cruz Roja Argentina durante la crisis sanitaria de 2020?",
+        "opciones": ["Asistencia humanitaria y sanitaria", "Recolección de alimentos", "Distribución de medicinas", "Capacitación en prevención"],
+        "respuesta_correcta": "Asistencia humanitaria y sanitaria"
+    },
+    {
+        "pregunta": "¿Qué red internacional está vinculada a la Cruz Roja Argentina?",
+        "opciones": ["Movimiento Internacional de la Cruz Roja y de la Media Luna Roja", "Red Mundial de Voluntarios", "Alianza Internacional de Sociedades Humanitarias", "Federación Global de Sociedades de Ayuda"],
+        "respuesta_correcta": "Movimiento Internacional de la Cruz Roja y de la Media Luna Roja"
+    },
+    {
+        "pregunta": "¿Qué tipo de emergencias maneja el programa 'Preparación y Respuesta a Emergencias' de la Cruz Roja Argentina?",
+        "opciones": ["Desastres naturales y crisis humanitarias", "Emergencias médicas menores", "Situaciones de violencia doméstica", "Emergencias relacionadas con el tráfico"],
+        "respuesta_correcta": "Desastres naturales y crisis humanitarias"
+    },
+    {
+        "pregunta": "¿Qué objetivo tiene el programa 'Jóvenes en Acción' de la Cruz Roja Argentina?",
+        "opciones": ["Empoderar a los jóvenes en actividades humanitarias", "Ofrecer becas de estudio", "Desarrollar habilidades de liderazgo empresarial", "Capacitar en habilidades técnicas"],
+        "respuesta_correcta": "Empoderar a los jóvenes en actividades humanitarias"
+    },
+    {
+        "pregunta": "¿Qué tipo de formación ofrece la Cruz Roja Argentina a sus voluntarios?",
+        "opciones": ["Entrenamiento en primeros auxilios y gestión de emergencias", "Formación en habilidades empresariales", "Capacitación en deportes y recreación", "Cursos de idiomas y comunicación"],
+        "respuesta_correcta": "Entrenamiento en primeros auxilios y gestión de emergencias"
+    },
+    {
+        "pregunta": "¿Qué evento organizado por la Cruz Roja Argentina busca promover la educación en primeros auxilios?",
+        "opciones": ["Día Internacional de Primeros Auxilios", "Semana de la Salud", "Maratón de Primeros Auxilios", "Campaña de Formación en Emergencias"],
+        "respuesta_correcta": "Día Internacional de Primeros Auxilios"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del programa de la Cruz Roja Argentina para asistir a personas en situación de calle?",
+        "opciones": ["Programa de Atención a Personas en Situación de Calle", "Red de Apoyo a Personas en Situación de Calle", "Servicios de Emergencia Nocturna", "Centro de Asistencia para el Hogar"],
+        "respuesta_correcta": "Programa de Atención a Personas en Situación de Calle"
+    },
+    {
+        "pregunta": "¿Qué tipo de campaña realiza la Cruz Roja Argentina para la prevención de desastres?",
+        "opciones": ["Campañas de sensibilización y preparación comunitaria", "Recolección de fondos para investigación", "Entrenamiento en deportes de riesgo", "Promoción de eventos culturales"],
+        "respuesta_correcta": "Campañas de sensibilización y preparación comunitaria"
+    },
+    {
+        "pregunta": "¿Qué herramienta utiliza la Cruz Roja Argentina para coordinar la ayuda en emergencias?",
+        "opciones": ["Sistema de Gestión de Emergencias", "Aplicación de Coordinación de Crisis", "Red de Comunicación de Emergencias", "Plataforma de Gestión Humanitaria"],
+        "respuesta_correcta": "Sistema de Gestión de Emergencias"
+    },
+    {
+        "pregunta": "¿Cuál es uno de los principales socios estratégicos de la Cruz Roja Argentina en la región?",
+        "opciones": ["Organización Panamericana de la Salud (OPS)", "Fondo Monetario Internacional (FMI)", "Banco Mundial", "Organización de Estados Americanos (OEA)"],
+        "respuesta_correcta": "Organización Panamericana de la Salud (OPS)"
+    },
+    {
+        "pregunta": "¿Qué tipo de actividades realiza la Cruz Roja Argentina en las escuelas?",
+        "opciones": ["Programas educativos sobre salud y prevención", "Clases de deporte y recreación", "Actividades artísticas y culturales", "Cursos de tecnología y ciencia"],
+        "respuesta_correcta": "Programas educativos sobre salud y prevención"
+    },
+    {
+        "pregunta": "¿Qué tipo de ayuda brindó la Cruz Roja Argentina en los incendios forestales en 2022?",
+        "opciones": ["Asistencia en la evacuación y distribución de alimentos", "Rehabilitación de áreas quemadas", "Recuperación de fauna afectada", "Investigación y monitoreo de incendios"],
+        "respuesta_correcta": "Asistencia en la evacuación y distribución de alimentos"
+    },
+    {
+        "pregunta": "¿Cuál es el papel de la Cruz Roja Argentina en el programa de donación de sangre?",
+        "opciones": ["Coordinar y promover la donación de sangre", "Recolección de muestras de sangre para estudios", "Distribución de sangre a hospitales", "Capacitación en técnicas de donación"],
+        "respuesta_correcta": "Coordinar y promover la donación de sangre"
+    },
+    {
+        "pregunta": "¿Qué objetivo tiene el programa de 'Red de Apoyo a Familias' de la Cruz Roja Argentina?",
+        "opciones": ["Brindar asistencia integral a familias en situación de vulnerabilidad", "Ofrecer asesoramiento legal a familias", "Proveer ayuda económica a familias necesitadas", "Organizar eventos comunitarios para familias"],
+        "respuesta_correcta": "Brindar asistencia integral a familias en situación de vulnerabilidad"
+    },
+    {
+        "pregunta": "¿Qué actividad realiza la Cruz Roja Argentina para fomentar la prevención de enfermedades?",
+        "opciones": ["Campañas de vacunación y educación en salud", "Recolección de fondos para investigación médica", "Organización de ferias de salud", "Distribución de medicamentos gratuitos"],
+        "respuesta_correcta": "Campañas de vacunación y educación en salud"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del evento benéfico que realiza la Cruz Roja Argentina para recaudar fondos para sus proyectos?",
+        "opciones": ["Cena Anual de la Cruz Roja", "Gala de Solidaridad", "Maratón Humanitaria", "Concierto de la Cruz Roja"],
+        "respuesta_correcta": "Cena Anual de la Cruz Roja"
+    },
+    {
+        "pregunta": "¿En qué ciudad se encuentra la sede central de la Cruz Roja Argentina?",
+        "opciones": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+        "respuesta_correcta": "Buenos Aires"
+    },
+    {
+        "pregunta": "¿Qué tipo de asistencia brinda la Cruz Roja Argentina en emergencias médicas?",
+        "opciones": ["Asistencia prehospitalaria y transporte de pacientes", "Cirugías de emergencia", "Tratamientos de larga duración", "Rehabilitación médica"],
+        "respuesta_correcta": "Asistencia prehospitalaria y transporte de pacientes"
+    },
+    {
+        "pregunta": "¿Qué tipo de emergencias se abordaron con el apoyo de la Cruz Roja Argentina durante la crisis de los incendios en 2021?",
+        "opciones": ["Evacuación, distribución de suministros y apoyo psicológico", "Rehabilitación de áreas afectadas", "Investigación de causas y prevención", "Desarrollo de infraestructuras"],
+        "respuesta_correcta": "Evacuación, distribución de suministros y apoyo psicológico"
+    },
+    {
+        "pregunta": "¿Qué programa de la Cruz Roja Argentina se enfoca en la capacitación de jóvenes en habilidades de liderazgo?",
+        "opciones": ["Programa de Juventud", "Iniciativa de Liderazgo Juvenil", "Red de Jóvenes Voluntarios", "Academia de Jóvenes Líderes"],
+        "respuesta_correcta": "Programa de Juventud"
+    },
+    {
+        "pregunta": "¿Cuál es la principal fuente de financiamiento de la Cruz Roja Argentina?",
+        "opciones": ["Donaciones y aportes de socios", "Subvenciones gubernamentales", "Ingresos por eventos", "Ventas de productos"],
+        "respuesta_correcta": "Donaciones y aportes de socios"
+    },
+    {
+        "pregunta": "¿Qué actividad realiza la Cruz Roja Argentina para promover la seguridad vial?",
+        "opciones": ["Campañas de concientización y talleres de capacitación", "Distribución de equipos de seguridad", "Inspección de vehículos", "Recolección de datos sobre accidentes"],
+        "respuesta_correcta": "Campañas de concientización y talleres de capacitación"
+    },
+    {
+        "pregunta": "¿Cómo se llama el programa de la Cruz Roja Argentina que brinda ayuda a víctimas de violencia de género?",
+        "opciones": ["Programa de Apoyo a Víctimas de Violencia", "Red de Protección a Mujeres", "Centro de Atención a Víctimas", "Servicio de Asistencia Integral"],
+        "respuesta_correcta": "Programa de Apoyo a Víctimas de Violencia"
+    },
+    {
+        "pregunta": "¿Qué tipo de servicios ofrece la Cruz Roja Argentina en situaciones de emergencia?",
+        "opciones": ["Servicios de atención médica y logística", "Apoyo legal y psicológico", "Rehabilitación y asistencia social", "Prevención y capacitación en primeros auxilios"],
+        "respuesta_correcta": "Servicios de atención médica y logística"
+    },
+    {
+        "pregunta": "¿Qué tipo de asistencia brinda la Cruz Roja Argentina a personas con discapacidades?",
+        "opciones": ["Programas de apoyo y adaptación", "Asesoramiento legal", "Servicios de rehabilitación", "Educación y formación profesional"],
+        "respuesta_correcta": "Programas de apoyo y adaptación"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo de la campaña 'Juntos por la Inclusión' de la Cruz Roja Argentina?",
+        "opciones": ["Promover la inclusión de personas con discapacidades", "Recaudar fondos para infraestructura", "Desarrollar programas de educación", "Fortalecer el voluntariado"],
+        "respuesta_correcta": "Promover la inclusión de personas con discapacidades"
+    },
+    {
+        "pregunta": "¿Qué tipo de apoyo ofrece la Cruz Roja Argentina durante emergencias por desastres naturales?",
+        "opciones": ["Asistencia humanitaria, evacuación y recuperación", "Rehabilitación de infraestructuras", "Investigación sobre desastres", "Programas de educación en prevención"],
+        "respuesta_correcta": "Asistencia humanitaria, evacuación y recuperación"
+    },
+    {
+        "pregunta": "¿Qué tipo de educación ofrece la Cruz Roja Argentina en relación con la salud y la prevención?",
+        "opciones": ["Capacitación en primeros auxilios y prevención de enfermedades", "Educación en nutrición y dieta", "Formación en habilidades técnicas", "Cursos de liderazgo"],
+        "respuesta_correcta": "Capacitación en primeros auxilios y prevención de enfermedades"
+    },
+    {
+        "pregunta": "¿Qué objetivo tiene el programa de 'Emergencias Comunitarias' de la Cruz Roja Argentina?",
+        "opciones": ["Preparar y responder a emergencias a nivel comunitario", "Ofrecer asistencia financiera a comunidades", "Desarrollar infraestructuras en comunidades", "Capacitar a líderes comunitarios"],
+        "respuesta_correcta": "Preparar y responder a emergencias a nivel comunitario"
+    },
+    {
+        "pregunta": "¿Cuál es uno de los principales logros de la Cruz Roja Argentina en los últimos años?",
+        "opciones": ["Expansión de sus servicios de emergencia y formación en todo el país", "Desarrollo de nuevas tecnologías para emergencias", "Reducción del número de voluntarios", "Incremento en las tasas de cobertura de seguros"],
+        "respuesta_correcta": "Expansión de sus servicios de emergencia y formación en todo el país"
+    },
+    {
+        "pregunta": "¿Qué tipo de eventos organiza la Cruz Roja Argentina para sensibilizar sobre sus actividades?",
+        "opciones": ["Seminarios, talleres y conferencias", "Eventos deportivos y culturales", "Ferias de empleo", "Desfiles y presentaciones artísticas"],
+        "respuesta_correcta": "Seminarios, talleres y conferencias"
+    },
+    {
+        "pregunta": "¿Qué tipo de servicios proporciona la Cruz Roja Argentina a los adultos mayores?",
+        "opciones": ["Asistencia médica y social", "Programas de recreación", "Servicios de asesoramiento financiero", "Capacitación en nuevas tecnologías"],
+        "respuesta_correcta": "Asistencia médica y social"
+    },
+    {
+        "pregunta": "¿Qué año se lanzó el programa de 'Emergencias en Acción' de la Cruz Roja Argentina?",
+        "opciones": ["2018", "2019", "2020", "2021"],
+        "respuesta_correcta": "2019"
+    },
+    {
+        "pregunta": "¿Cuál es la misión de la Cruz Roja Argentina durante una crisis sanitaria?",
+        "opciones": ["Brindar asistencia médica y apoyo comunitario", "Recaudar fondos para investigaciones", "Promover el turismo saludable", "Ofrecer servicios de entretenimiento"],
+        "respuesta_correcta": "Brindar asistencia médica y apoyo comunitario"
+    },
+    {
+        "pregunta": "¿Qué tipo de capacitación ofrece la Cruz Roja Argentina a los voluntarios de emergencia?",
+        "opciones": ["Entrenamiento en manejo de crisis y primeros auxilios", "Formación en técnicas culinarias", "Capacitación en habilidades deportivas", "Cursos de gestión empresarial"],
+        "respuesta_correcta": "Entrenamiento en manejo de crisis y primeros auxilios"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo de la campaña 'Por una Vida Segura' de la Cruz Roja Argentina?",
+        "opciones": ["Promover la seguridad en el hogar y la comunidad", "Ofrecer cursos de manejo defensivo", "Distribuir equipos de seguridad en el hogar", "Capacitar en primeros auxilios"],
+        "respuesta_correcta": "Promover la seguridad en el hogar y la comunidad"
+    },
+    {
+        "pregunta": "¿Qué tipo de asistencia proporciona la Cruz Roja Argentina a las personas afectadas por crisis alimentaria?",
+        "opciones": ["Distribución de alimentos y apoyo nutricional", "Asesoramiento en agricultura", "Rehabilitación de tierras agrícolas", "Promoción de hábitos alimenticios saludables"],
+        "respuesta_correcta": "Distribución de alimentos y apoyo nutricional"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del programa de la Cruz Roja Argentina dedicado a la prevención de enfermedades infecciosas?",
+        "opciones": ["Programa de Prevención y Control de Enfermedades", "Iniciativa de Salud Comunitaria", "Red de Prevención de Epidemias", "Campaña de Salud e Higiene"],
+        "respuesta_correcta": "Programa de Prevención y Control de Enfermedades"
+    },
+    {
+        "pregunta": "¿Qué tipo de actividades realiza la Cruz Roja Argentina para apoyar a los refugiados?",
+        "opciones": ["Asistencia humanitaria y apoyo psicológico", "Reubicación y integración social", "Educación y capacitación laboral", "Servicios legales y administrativos"],
+        "respuesta_correcta": "Asistencia humanitaria y apoyo psicológico"
+    },
+    {
+        "pregunta": "¿Qué tipo de ayuda brinda la Cruz Roja Argentina en el contexto de desastres provocados por el hombre?",
+        "opciones": ["Asistencia en emergencias y apoyo a las víctimas", "Investigación de las causas y prevención futura", "Rehabilitación de infraestructuras", "Desarrollo de políticas de seguridad"],
+        "respuesta_correcta": "Asistencia en emergencias y apoyo a las víctimas"
+    },
+    {
+        "pregunta": "¿Cuál es el enfoque principal de la Cruz Roja Argentina en sus proyectos de desarrollo comunitario?",
+        "opciones": ["Empoderar a las comunidades para mejorar su resiliencia y bienestar", "Construcción de infraestructura", "Desarrollo económico", "Organización de eventos culturales"],
+        "respuesta_correcta": "Empoderar a las comunidades para mejorar su resiliencia y bienestar"
+    },
+    {
+        "pregunta": "¿Qué programa de la Cruz Roja Argentina se enfoca en la asistencia a comunidades rurales?",
+        "opciones": ["Programa de Apoyo a Comunidades Rurales", "Red de Servicios Rurales", "Iniciativa de Desarrollo Rural", "Servicio de Atención Rural"],
+        "respuesta_correcta": "Programa de Apoyo a Comunidades Rurales"
+    },
+    {
+        "pregunta": "¿Cuál es uno de los principales retos que enfrenta la Cruz Roja Argentina actualmente?",
+        "opciones": ["Aumento de desastres naturales y emergencias humanitarias", "Reducción del número de voluntarios", "Escasez de recursos financieros", "Cambios en las políticas internacionales"],
+        "respuesta_correcta": "Aumento de desastres naturales y emergencias humanitarias"
+    },
+    {
+        "pregunta": "¿Qué tipo de iniciativas realiza la Cruz Roja Argentina para fomentar la participación comunitaria?",
+        "opciones": ["Proyectos de desarrollo comunitario y eventos participativos", "Campañas de recaudación de fondos", "Programas de voluntariado internacional", "Iniciativas de inversión en infraestructura"],
+        "respuesta_correcta": "Proyectos de desarrollo comunitario y eventos participativos"
+    },
+    {
+        "pregunta": "¿Qué tipo de programas de formación ofrece la Cruz Roja Argentina a los profesionales de la salud?",
+        "opciones": ["Capacitación en manejo de emergencias y técnicas de primeros auxilios", "Formación en técnicas de investigación médica", "Educación en gestión hospitalaria", "Entrenamiento en tecnología médica"],
+        "respuesta_correcta": "Capacitación en manejo de emergencias y técnicas de primeros auxilios"
+    },
+    {
+        "pregunta": "¿Cómo se llama el proyecto de la Cruz Roja Argentina que ayuda a familias afectadas por crisis económicas?",
+        "opciones": ["Programa de Asistencia Familiar", "Red de Apoyo Económico", "Iniciativa de Recuperación Familiar", "Servicio de Apoyo Financiero"],
+        "respuesta_correcta": "Programa de Asistencia Familiar"
+    },
+    {
+        "pregunta": "¿Qué tipo de actividades realiza la Cruz Roja Argentina en el ámbito de la educación?",
+        "opciones": ["Programas educativos sobre salud y prevención", "Clases de apoyo escolar", "Cursos de habilidades profesionales", "Talleres de arte y recreación"],
+        "respuesta_correcta": "Programas educativos sobre salud y prevención"
+    },
+    {
+        "pregunta": "¿Qué año se lanzó el programa 'Emergencias en Acción' de la Cruz Roja Argentina?",
+        "opciones": ["2018", "2019", "2020", "2021"],
+        "respuesta_correcta": "2019"
+    },
+    {
+        "pregunta": "¿Qué objetivo tiene la Cruz Roja Argentina con el programa 'Salud en la Comunidad'?",
+        "opciones": ["Brindar atención médica y educación en salud a comunidades vulnerables", "Desarrollar infraestructura médica", "Proveer formación a profesionales de la salud", "Promover actividades recreativas en la comunidad"],
+        "respuesta_correcta": "Brindar atención médica y educación en salud a comunidades vulnerables"
+    },
+    {
+        "pregunta": "¿Qué tipo de emergencias se manejan a través del programa 'Preparación y Respuesta' de la Cruz Roja Argentina?",
+        "opciones": ["Desastres naturales y crisis humanitarias", "Emergencias médicas menores", "Situaciones de violencia doméstica", "Emergencias relacionadas con el tráfico"],
+        "respuesta_correcta": "Desastres naturales y crisis humanitarias"
+    },
+    {
+        "pregunta": "¿Cuál es el enfoque del programa 'Atención a Víctimas de Violencia' de la Cruz Roja Argentina?",
+        "opciones": ["Brindar asistencia integral a víctimas de violencia de género y abuso", "Rehabilitación de infraestructuras afectadas", "Asesoramiento legal y financiero", "Capacitación en prevención de violencia"],
+        "respuesta_correcta": "Brindar asistencia integral a víctimas de violencia de género y abuso"
+    },
+    {
+        "pregunta": "¿Qué tipo de apoyo brinda la Cruz Roja Argentina a las víctimas de desastres naturales?",
+        "opciones": ["Asistencia inmediata, apoyo emocional y recuperación", "Rehabilitación de infraestructuras", "Investigación sobre desastres", "Desarrollo de políticas de prevención"],
+        "respuesta_correcta": "Asistencia inmediata, apoyo emocional y recuperación"
+    },
+    {
+        "pregunta": "¿Qué tipo de formación en salud ofrece la Cruz Roja Argentina a la comunidad?",
+        "opciones": ["Cursos de primeros auxilios y prevención de enfermedades", "Talleres de nutrición y dieta", "Formación en técnicas de emergencia médica", "Capacitación en gestión hospitalaria"],
+        "respuesta_correcta": "Cursos de primeros auxilios y prevención de enfermedades"
+    },
+    {
+        "pregunta": "¿Cuál es el enfoque principal del programa de 'Voluntariado Juvenil' de la Cruz Roja Argentina?",
+        "opciones": ["Empoderar a los jóvenes en actividades humanitarias y de liderazgo", "Desarrollar habilidades técnicas en jóvenes", "Ofrecer actividades recreativas", "Capacitar en habilidades empresariales"],
+        "respuesta_correcta": "Empoderar a los jóvenes en actividades humanitarias y de liderazgo"
+    },
+    {
+        "pregunta": "¿Qué tipo de ayuda ofrece la Cruz Roja Argentina a las comunidades afectadas por emergencias económicas?",
+        "opciones": ["Apoyo financiero y programas de recuperación económica", "Rehabilitación de infraestructura", "Distribución de alimentos y medicinas", "Asesoramiento en inversiones"],
+        "respuesta_correcta": "Apoyo financiero y programas de recuperación económica"
+    },
+    {
+        "pregunta": "¿Qué papel juega la Cruz Roja Argentina en la gestión de emergencias internacionales?",
+        "opciones": ["Coordina con otros miembros del Movimiento Internacional de la Cruz Roja y Media Luna Roja", "Provee apoyo financiero a organizaciones internacionales", "Desarrolla políticas de emergencia internacionales", "Dirige operaciones de ayuda en el extranjero"],
+        "respuesta_correcta": "Coordina con otros miembros del Movimiento Internacional de la Cruz Roja y Media Luna Roja"
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo del programa de 'Salud Mental' de la Cruz Roja Argentina?",
+        "opciones": ["Brindar apoyo psicológico y emocional en emergencias", "Desarrollar infraestructura para salud mental", "Ofrecer formación en técnicas psicológicas", "Promover actividades recreativas para la salud mental"],
+        "respuesta_correcta": "Brindar apoyo psicológico y emocional en emergencias"
+    },
+    {
+        "pregunta": "¿Qué tipo de asistencia ofrece la Cruz Roja Argentina en emergencias por crisis alimentaria?",
+        "opciones": ["Distribución de alimentos y asistencia nutricional", "Capacitación en técnicas agrícolas", "Desarrollo de infraestructuras alimentarias", "Asesoramiento en políticas alimentarias"],
+        "respuesta_correcta": "Distribución de alimentos y asistencia nutricional"
+    },
+    {
+        "pregunta": "¿Qué actividad realiza la Cruz Roja Argentina en el ámbito de la prevención de desastres?",
+        "opciones": ["Capacitación en gestión de riesgos y preparación comunitaria", "Investigación sobre desastres naturales", "Desarrollo de infraestructuras para emergencias", "Recolección de fondos para prevención"],
+        "respuesta_correcta": "Capacitación en gestión de riesgos y preparación comunitaria"
+    },
+    {
+        "pregunta": "¿Cómo se llama el programa de la Cruz Roja Argentina que ayuda a las comunidades a recuperarse después de desastres?",
+        "opciones": ["Programa de Recuperación Comunitaria", "Red de Asistencia Post-desastre", "Iniciativa de Rehabilitación Comunitaria", "Servicio de Recuperación y Apoyo"],
+        "respuesta_correcta": "Programa de Recuperación Comunitaria"
+    }
+]
