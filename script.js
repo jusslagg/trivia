@@ -1,16 +1,30 @@
+import { startTimer, stopTimer } from './timer.js';
+
 document.addEventListener('DOMContentLoaded', () => {
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options-container');
     const nextButton = document.getElementById('next-button');
     const resultContainer = document.getElementById('result-container');
     const resultText = document.getElementById('result-text');
+    const timeTakenElement = document.getElementById('time-taken');
+    const currentTimeElement = document.getElementById('current-time');
     const feedbackElement = document.createElement('div'); // Elemento para el feedback
 
     let currentQuestionIndex = 0;
     let score = 0;
+    let timeTaken = 0; // Tiempo total tomado para responder
+    let startTime = null; // Hora de inicio para el temporizador
     const totalQuestions = 10; // Total de preguntas en el juego
     let questions = []; // Array para almacenar las preguntas
     let selectedQuestions = []; // Array para las preguntas seleccionadas
+
+    // Función para actualizar el temporizador en la interfaz
+    function updateTimer() {
+        if (startTime) {
+            const currentTime = ((new Date() - startTime) / 1000).toFixed(2);
+            currentTimeElement.textContent = currentTime;
+        }
+    }
 
     // Función para obtener un número aleatorio entre min y max
     function getRandomInt(min, max) {
@@ -36,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function showQuestion() {
         if (currentQuestionIndex >= selectedQuestions.length) {
             resultText.textContent = `Tu puntaje final es ${score}/${totalQuestions}.`;
+            timeTakenElement.textContent = `Tiempo total tomado: ${timeTaken.toFixed(2)} segundos.`;
             resultContainer.style.display = 'block';
             nextButton.style.display = 'none';
             return;
@@ -57,6 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
             optionButton.textContent = `${optionLetters[index]}. ${opcion}`;
             optionButton.classList.add('option');
             optionButton.addEventListener('click', () => {
+                const elapsed = stopTimer(); // Detener el temporizador y obtener el tiempo tomado
+                timeTaken += elapsed; // Acumulando el tiempo total tomado
                 if (opcion === question.respuesta_correcta) {
                     score++;
                     feedbackElement.textContent = '¡Respuesta Correcta!';
@@ -69,10 +86,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => {
                     currentQuestionIndex++;
                     showQuestion();
+                    startTimer(); // Reiniciar el temporizador para la siguiente pregunta
                 }, 2000); // Mostrar feedback por 2 segundos antes de pasar a la siguiente pregunta
             });
             optionsContainer.appendChild(optionButton);
         });
+
+        startTime = new Date(); // Guardar el momento actual para el temporizador
+        startTimer(); // Iniciar el temporizador cuando se muestra la pregunta
+
+        // Actualizar el temporizador cada 100ms
+        const timerInterval = setInterval(() => {
+            updateTimer();
+        }, 100);
+
+        // Detener el intervalo cuando se cambia la pregunta
+        function stopUpdatingTimer() {
+            clearInterval(timerInterval);
+        }
+
+        // Interrumpir el temporizador actual cuando cambie de pregunta
+        nextButton.addEventListener('click', stopUpdatingTimer);
     }
 
     // Función para cargar preguntas desde data.json
