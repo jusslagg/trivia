@@ -1,13 +1,18 @@
 import { startTimer, stopTimer, getTotalTime, resetTimer } from './timer.js';
 
 document.addEventListener('DOMContentLoaded', () => {
+    const startContainer = document.getElementById('start-container');
+    const questionContainer = document.getElementById('question-container');
+    const userInfoForm = document.getElementById('user-info-form');
+    const startButton = document.getElementById('start-button');
     const questionElement = document.getElementById('question');
     const optionsContainer = document.getElementById('options-container');
     const nextButton = document.getElementById('next-button');
     const resultContainer = document.getElementById('result-container');
     const resultText = document.getElementById('result-text');
     const timeTakenElement = document.getElementById('time-taken');
-    const currentTimeElement = document.getElementById('current-time');
+    const restartButton = document.getElementById('restart-button');
+    const timerElement = document.getElementById('current-time');
     const feedbackElement = document.createElement('div');
 
     let currentQuestionIndex = 0;
@@ -23,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const minutes = Math.floor(elapsed / 60000); // Convertir a minutos
         const seconds = Math.floor((elapsed % 60000) / 1000); // Convertir a segundos
 
-        currentTimeElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        timerElement.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     }
 
     // Función para mezclar un array
@@ -38,11 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Función para mostrar una pregunta
     function showQuestion() {
         if (currentQuestionIndex >= selectedQuestions.length) {
-            // Finalizar el cuestionario
+            // Mostrar resultados finales
+            const totalMinutes = Math.floor(getTotalTime() / 60000);
+            const totalSeconds = Math.floor((getTotalTime() % 60000) / 1000);
             resultText.textContent = `Tu puntaje final es ${score}/${totalQuestions}.`;
-            timeTakenElement.textContent = `Tiempo total tomado: ${Math.floor(getTotalTime() / 60000)}:${Math.floor((getTotalTime() % 60000) / 1000)} minutos.`;
+            timeTakenElement.textContent = `Tiempo total tomado: ${totalMinutes}:${totalSeconds.toString().padStart(2, '0')} minutos.`;
             resultContainer.style.display = 'block';
             nextButton.style.display = 'none';
+            restartButton.style.display = 'inline'; // Mostrar botón para reiniciar
             clearInterval(timerInterval); // Detener el intervalo del temporizador
             return;
         }
@@ -74,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     currentQuestionIndex++;
                     showQuestion();
                     startTimer(); // Reiniciar el temporizador para la siguiente pregunta
-                }, 1500);
+                }, 2000);
             });
             optionsContainer.appendChild(optionButton);
         });
@@ -98,10 +106,35 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => console.error('Error al cargar las preguntas:', error));
     }
 
+    // Iniciar el cuestionario
+    function startQuiz() {
+        startContainer.style.display = 'none'; // Ocultar el cuadro de inicio
+        questionContainer.style.display = 'block'; // Mostrar el contenedor de preguntas
+        loadQuestions(); // Cargar las preguntas
+    }
+
+    // Reiniciar el cuestionario
+    function restartQuiz() {
+        currentQuestionIndex = 0;
+        score = 0;
+        resultContainer.style.display = 'none';
+        nextButton.style.display = 'inline';
+        restartButton.style.display = 'none';
+        resetTimer(); // Reiniciar el temporizador
+        startContainer.style.display = 'block'; // Mostrar el cuadro de inicio
+        questionContainer.style.display = 'none'; // Ocultar el contenedor de preguntas
+    }
+
+    userInfoForm.addEventListener('submit', (event) => {
+        event.preventDefault(); // Evitar el envío del formulario
+        startQuiz(); // Iniciar el cuestionario
+    });
+
     nextButton.addEventListener('click', () => {
         showQuestion();
     });
+    restartButton.addEventListener('click', restartQuiz);
 
     // Inicializar el cuestionario
-    loadQuestions();
+    startContainer.style.display = 'block'; // Mostrar el cuadro de inicio al cargar
 });
